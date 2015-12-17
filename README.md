@@ -1,8 +1,8 @@
 # THE TRAVEL GUIDE
 
-- An application that helps users to plan their trip to any location in India.
-- The application will provide with Travel recommendations, a day planne.
-- It also fetches user reviews (through web scraping), and weather information.
+- An application that helps users plan their trip to any location in India.
+- The application provides travel recommendations and a day planner.
+- It also fetches user reviews, and weather information.
 - Involves use of web APIs and web scraping with BeautifulSoup library in python.
 
 ## Scripts and their functions - 
@@ -12,9 +12,6 @@ Takes in city and date and finds out the average weather in the terrain
 
 **flights**
 Interactive program to find out flights between origin and destination on a particular date
-
-**flights_func**
-integrates flights.py  into a function
 
 **weather**
 interactive program to find out weather in the near 5-6 days
@@ -40,8 +37,7 @@ interactive script that recommends optimal time
 
 
 **day_planner_for_terminal**
- recommends places to visit day plans
-Helper Scripts:
+recommends places to visit
 
 **distancematrix:**
 script finds out the distance between 2 places and the time taken to cover it while driving
@@ -54,4 +50,4 @@ script that finds out the time taken to cover distance between 2 places by train
 
 **hotel_and_sight_seeing2:**
 defines functionality for the various scripts that give information about city, state or places to visit
-##cache database used in get_ss_time(args)
+
